@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Robotics-Middleware-Platforms/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Robotics-Middleware-Platforms?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Robotics-Middleware-Platforms/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Robotics-Middleware-Platforms?style=flat-square&logo=github&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Robotics-Middleware-Platforms/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Robotics-Middleware-Platforms?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Robotics-Middleware-Platforms/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Robotics-Middleware-Platforms/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License: MIT" /></a>
@@ -55,80 +55,80 @@ Below is a comparison of leading hosted platforms and enterprise robotics middle
 
 ## 💻 Open-Source GitHub Projects
 
-The premier open-source robotics middleware frameworks, publish-subscribe libraries, and zero-copy IPC transport engines, **sorted in descending order by GitHub star count**.
+The premier open-source robotics middleware frameworks, publish-subscribe libraries, and zero-copy IPC transport engines, **sorted in descending order by GitHub Stars_Count**.
 
 *Each repository entry includes a direct link to its repository and a live stargazer badge linking to its stargazer community.*
 
-1. **[Apollo Cyber RT](https://github.com/ApolloAuto/apollo)** [![GitHub stars](https://img.shields.io/github/stars/ApolloAuto/apollo?style=social&color=white)](https://github.com/ApolloAuto/apollo/stargazers)  
+1. **[Apollo Cyber RT](https://github.com/ApolloAuto/apollo)** [![GitHub_Stars](https://img.shields.io/github/stars/ApolloAuto/apollo?style=social&color=white)](https://github.com/ApolloAuto/apollo/stargazers)  
    🏎️ High-performance runtime framework and component-based messaging middleware built specifically for autonomous driving systems. Features deterministic user-space coroutine scheduling, kernel-bypass shared-memory IPC, and adaptive queueing to eliminate latency jitter in high-frequency LIDAR/radar perception loops.
 
-2. **[Rerun](https://github.com/rerun-io/rerun)** [![GitHub stars](https://img.shields.io/github/stars/rerun-io/rerun?style=social&color=white)](https://github.com/rerun-io/rerun/stargazers)  
+2. **[Rerun](https://github.com/rerun-io/rerun)** [![GitHub_Stars](https://img.shields.io/github/stars/rerun-io/rerun?style=social&color=white)](https://github.com/rerun-io/rerun/stargazers)  
    📊 Visualizer and real-time streaming SDK designed for multimodal spatial-temporal robotics data. Allows roboticists to stream images, point clouds, tensors, and robot transforms seamlessly over Apache Arrow-based IPC with nanosecond-accurate timeline scrubbing.
 
-3. **[ZeroMQ (libzmq)](https://github.com/zeromq/libzmq)** [![GitHub stars](https://img.shields.io/github/stars/zeromq/libzmq?style=social&color=white)](https://github.com/zeromq/libzmq/stargazers)  
+3. **[ZeroMQ (libzmq)](https://github.com/zeromq/libzmq)** [![GitHub_Stars](https://img.shields.io/github/stars/zeromq/libzmq?style=social&color=white)](https://github.com/zeromq/libzmq/stargazers)  
    ⚡ Universal asynchronous messaging library carrying message passing over inproc, IPC, TCP, TIPC, and multicast. Provides brokerless pub/sub, push/pull, and router/dealer sockets, serving as the high-throughput transport engine behind countless custom robotics communication backbones.
 
-4. **[ROS 2 (Robot Operating System 2)](https://github.com/ros2/ros2)** [![GitHub stars](https://img.shields.io/github/stars/ros2/ros2?style=social&color=white)](https://github.com/ros2/ros2/stargazers)  
+4. **[ROS 2 (Robot Operating System 2)](https://github.com/ros2/ros2)** [![GitHub_Stars](https://img.shields.io/github/stars/ros2/ros2?style=social&color=white)](https://github.com/ros2/ros2/stargazers)  
    🤖 The world's leading open-source robotics middleware ecosystem. Built on a decentralized DDS foundation, ROS 2 provides type-safe publish-subscribe messaging, synchronous RPC service calls, preemptible action feedback, lifecycle nodes, fine-grained Quality of Service (QoS) profiles, and an extensible ROS Middleware (RMW) abstraction layer.
 
-5. **[NNG (nanomsg-next-gen)](https://github.com/nanomsg/nng)** [![GitHub stars](https://img.shields.io/github/stars/nanomsg/nng?style=social&color=white)](https://github.com/nanomsg/nng/stargazers)  
+5. **[NNG (nanomsg-next-gen)](https://github.com/nanomsg/nng)** [![GitHub_Stars](https://img.shields.io/github/stars/nanomsg/nng?style=social&color=white)](https://github.com/nanomsg/nng/stargazers)  
    🔌 Lightweight, brokerless Scalability Protocols library written in pure C. Delivers high-reliability pub/sub, request/reply, and survey communication patterns ideal for resource-constrained micro-controllers, onboard sensors, and inter-process robot telemetry.
 
-6. **[Dora-rs](https://github.com/dora-rs/dora)** [![GitHub stars](https://img.shields.io/github/stars/dora-rs/dora?style=social&color=white)](https://github.com/dora-rs/dora/stargazers)  
+6. **[Dora-rs](https://github.com/dora-rs/dora)** [![GitHub_Stars](https://img.shields.io/github/stars/dora-rs/dora?style=social&color=white)](https://github.com/dora-rs/dora/stargazers)  
    🦀 Dataflow-Oriented Robotic Architecture middleware written in Rust. Features ultra-fast zero-copy shared memory data exchange backed by Apache Arrow columnar memory, multi-language orchestration (Rust, Python, C, C++), and seamless bidirectional bridging to ROS 2.
 
-7. **[Eclipse Zenoh](https://github.com/eclipse-zenoh/zenoh)** [![GitHub stars](https://img.shields.io/github/stars/eclipse-zenoh/zenoh?style=social&color=white)](https://github.com/eclipse-zenoh/zenoh/stargazers)  
+7. **[Eclipse Zenoh](https://github.com/eclipse-zenoh/zenoh)** [![GitHub_Stars](https://img.shields.io/github/stars/eclipse-zenoh/zenoh?style=social&color=white)](https://github.com/eclipse-zenoh/zenoh/stargazers)  
    🌐 Ultra-low overhead protocol that unifies data in motion, data in use, and data at rest. Delivers **~97–99% reduction in discovery overhead** compared to standard DDS, making it the premier choice for multi-robot swarms, mobile robots on lossy Wi-Fi/cellular links, and native ROS 2 RMW backends (`rmw_zenoh_cpp`).
 
-8. **[ROS 1 Core](https://github.com/ros/ros)** [![GitHub stars](https://img.shields.io/github/stars/ros/ros?style=social&color=white)](https://github.com/ros/ros/stargazers)  
+8. **[ROS 1 Core](https://github.com/ros/ros)** [![GitHub_Stars](https://img.shields.io/github/stars/ros/ros?style=social&color=white)](https://github.com/ros/ros/stargazers)  
    🏛️ The foundational Robot Operating System packages that pioneered robotics modularity, centralized parameter servers, and publish/subscribe graph architecture across academic laboratories and industrial deployments worldwide.
 
-9. **[eProsima Fast DDS](https://github.com/eProsima/Fast-DDS)** [![GitHub stars](https://img.shields.io/github/stars/eProsima/Fast-DDS?style=social&color=white)](https://github.com/eProsima/Fast-DDS/stargazers)  
+9. **[eProsima Fast DDS](https://github.com/eProsima/Fast-DDS)** [![GitHub_Stars](https://img.shields.io/github/stars/eProsima/Fast-DDS?style=social&color=white)](https://github.com/eProsima/Fast-DDS/stargazers)  
    🚀 The default ROS 2 middleware implementation (`rmw_fastrtps_cpp`). Delivers high-performance OMG DDS/RTPS compliance in C++ with sub-20μs latency, dynamic and static discovery modes, shared memory transport, and complete security specification compliance.
 
-10. **[MAVLink](https://github.com/mavlink/mavlink)** [![GitHub stars](https://img.shields.io/github/stars/mavlink/mavlink?style=social&color=white)](https://github.com/mavlink/mavlink/stargazers)  
+10. **[MAVLink](https://github.com/mavlink/mavlink)** [![GitHub_Stars](https://img.shields.io/github/stars/mavlink/mavlink?style=social&color=white)](https://github.com/mavlink/mavlink/stargazers)  
     🛸 Ultra-lightweight, binary serialization and messaging protocol optimized for unmanned autonomous systems (drones, rovers, and underwater submersibles). Transmits telemetry and commands reliably over constrained wireless radio links with minimal packet overhead.
 
-11. **[Eclipse iceoryx](https://github.com/eclipse-iceoryx/iceoryx)** [![GitHub stars](https://img.shields.io/github/stars/eclipse-iceoryx/iceoryx?style=social&color=white)](https://github.com/eclipse-iceoryx/iceoryx/stargazers)  
+11. **[Eclipse iceoryx](https://github.com/eclipse-iceoryx/iceoryx)** [![GitHub_Stars](https://img.shields.io/github/stars/eclipse-iceoryx/iceoryx?style=social&color=white)](https://github.com/eclipse-iceoryx/iceoryx/stargazers)  
     ❄️ True zero-copy inter-process communication (IPC) middleware based on shared memory. Guarantees deterministic, sub-microsecond latency regardless of payload size—enabling continuous gigabyte-scale transfers of raw uncompressed point clouds and 4K camera frames between autonomous nodes.
 
-12. **[Eclipse Cyclone DDS](https://github.com/eclipse-cyclonedds/cyclonedds)** [![GitHub stars](https://img.shields.io/github/stars/eclipse-cyclonedds/cyclonedds?style=social&color=white)](https://github.com/eclipse-cyclonedds/cyclonedds/stargazers)  
+12. **[Eclipse Cyclone DDS](https://github.com/eclipse-cyclonedds/cyclonedds)** [![GitHub_Stars](https://img.shields.io/github/stars/eclipse-cyclonedds/cyclonedds?style=social&color=white)](https://github.com/eclipse-cyclonedds/cyclonedds/stargazers)  
     🌪️ High-throughput, ultra-low delay OMG DDS implementation in C. Widely favored in ROS 2 deployments (`rmw_cyclonedds_cpp`) for its compact memory footprint, deterministic packet routing, and rigorous conformance to real-time distributed specifications.
 
-13. **[LCM (Lightweight Communications and Marshalling)](https://github.com/lcm-proj/lcm)** [![GitHub stars](https://img.shields.io/github/stars/lcm-proj/lcm?style=social&color=white)](https://github.com/lcm-proj/lcm/stargazers)  
+13. **[LCM (Lightweight Communications and Marshalling)](https://github.com/lcm-proj/lcm)** [![GitHub_Stars](https://img.shields.io/github/stars/lcm-proj/lcm?style=social&color=white)](https://github.com/lcm-proj/lcm/stargazers)  
     🛰️ Low-latency message-passing and data-marshalling library engineered for high-bandwidth robotics research. Leverages UDP multicast without centralized brokers and provides instantaneous traffic logging, playback, and packet inspection utilities.
 
-14. **[MCAP](https://github.com/foxglove/mcap)** [![GitHub stars](https://img.shields.io/github/stars/foxglove/mcap?style=social&color=white)](https://github.com/foxglove/mcap/stargazers)  
+14. **[MCAP](https://github.com/foxglove/mcap)** [![GitHub_Stars](https://img.shields.io/github/stars/foxglove/mcap?style=social&color=white)](https://github.com/foxglove/mcap/stargazers)  
     📦 Modular, high-performance serialization-agnostic file format designed for recording heterogeneous robotics telemetry, ROS 1/2 bags, Protobuf channels, and JSON log streams without external schema dependencies.
 
-15. **[YARP (Yet Another Robot Platform)](https://github.com/robotology/yarp)** [![GitHub stars](https://img.shields.io/github/stars/robotology/yarp?style=social&color=white)](https://github.com/robotology/yarp/stargazers)  
+15. **[YARP (Yet Another Robot Platform)](https://github.com/robotology/yarp)** [![GitHub_Stars](https://img.shields.io/github/stars/robotology/yarp?style=social&color=white)](https://github.com/robotology/yarp/stargazers)  
     🤖 Middleware and device abstraction layer developed by the Italian Institute of Technology (IIT). Serves as the software nervous system for complex humanoids such as the iCub, managing motor control loops, visual tracking, and multi-threaded device drivers.
 
-16. **[micro-ROS](https://github.com/micro-ROS/micro_ros_setup)** [![GitHub stars](https://img.shields.io/github/stars/micro-ROS/micro_ros_setup?style=social&color=white)](https://github.com/micro-ROS/micro_ros_setup/stargazers)  
+16. **[micro-ROS](https://github.com/micro-ROS/micro_ros_setup)** [![GitHub_Stars](https://img.shields.io/github/stars/micro-ROS/micro_ros_setup?style=social&color=white)](https://github.com/micro-ROS/micro_ros_setup/stargazers)  
     🔬 Extends ROS 2 seamlessly onto resource-constrained microcontrollers (STM32, ESP32, Teensy, Raspberry Pi Pico). Runs an optimized Client-Agent architecture over UART, USB, or Ethernet with static memory allocation and POSIX-compliant RTOS support.
 
-17. **[HORUS Robotics](https://github.com/softmata/horus)** [![GitHub stars](https://img.shields.io/github/stars/softmata/horus?style=social&color=white)](https://github.com/softmata/horus/stargazers)  
+17. **[HORUS Robotics](https://github.com/softmata/horus)** [![GitHub_Stars](https://img.shields.io/github/stars/softmata/horus?style=social&color=white)](https://github.com/softmata/horus/stargazers)  
     ⚡ Ultra-low latency robotics runtime system built in Rust with Python bindings. Achieves **87ns IPC latency and 12M+ messages/second throughput** using zero-copy shared memory, type-safe schema validation, and real-time deadline-driven thread scheduling.
 
-18. **[Eclipse Zenoh-Pico](https://github.com/eclipse-zenoh/zenoh-pico)** [![GitHub stars](https://img.shields.io/github/stars/eclipse-zenoh/zenoh-pico?style=social&color=white)](https://github.com/eclipse-zenoh/zenoh-pico/stargazers)  
+18. **[Eclipse Zenoh-Pico](https://github.com/eclipse-zenoh/zenoh-pico)** [![GitHub_Stars](https://img.shields.io/github/stars/eclipse-zenoh/zenoh-pico?style=social&color=white)](https://github.com/eclipse-zenoh/zenoh-pico/stargazers)  
     📟 Ultra-compact pure-C client implementation of Zenoh crafted for deeply embedded microcontrollers, edge sensors, and battery-powered IoT robotic accessories with strict RAM/ROM budgets.
 
-19. **[eProsima Micro-XRCE-DDS](https://github.com/eProsima/Micro-XRCE-DDS)** [![GitHub stars](https://img.shields.io/github/stars/eProsima/Micro-XRCE-DDS?style=social&color=white)](https://github.com/eProsima/Micro-XRCE-DDS/stargazers)  
+19. **[eProsima Micro-XRCE-DDS](https://github.com/eProsima/Micro-XRCE-DDS)** [![GitHub_Stars](https://img.shields.io/github/stars/eProsima/Micro-XRCE-DDS?style=social&color=white)](https://github.com/eProsima/Micro-XRCE-DDS/stargazers)  
     📡 Implementation of the OMG DDS-XRCE standard allowing microcontrollers to act as first-class citizens in DDS domains via an intermediate Agent gateway, forming the communication backbone of micro-ROS.
 
-20. **[Orocos RTT (Real-Time Toolkit)](https://github.com/orocos-toolchain/rtt)** [![GitHub stars](https://img.shields.io/github/stars/orocos-toolchain/rtt?style=social&color=white)](https://github.com/orocos-toolchain/rtt/stargazers)  
+20. **[Orocos RTT (Real-Time Toolkit)](https://github.com/orocos-toolchain/rtt)** [![GitHub_Stars](https://img.shields.io/github/stars/orocos-toolchain/rtt?style=social&color=white)](https://github.com/orocos-toolchain/rtt/stargazers)  
     ⏱️ C++ component framework for deterministic, hard real-time robot motion and joint torque control. Provides lock-free port buffers, state-machine execution engines, and seamless RTOS integration (Xenomai, Linux PREEMPT_RT).
 
-21. **[Wrapyfi](https://github.com/modular-ml/wrapyfi)** [![GitHub stars](https://img.shields.io/github/stars/modular-ml/wrapyfi?style=social&color=white)](https://github.com/modular-ml/wrapyfi/stargazers)  
+21. **[Wrapyfi](https://github.com/modular-ml/wrapyfi)** [![GitHub_Stars](https://img.shields.io/github/stars/modular-ml/wrapyfi?style=social&color=white)](https://github.com/modular-ml/wrapyfi/stargazers)  
     🐍 Flexible Python decorator-based wrapper that unifies message-oriented middleware across ROS, ROS 2, YARP, ZeroMQ, and MQTT. Eliminates glue code when deploying deep learning models onto heterogeneous robot stacks.
 
-22. **[Open-RAIL](https://github.com/CMCC-TAO/open-rail)** [![GitHub stars](https://img.shields.io/github/stars/CMCC-TAO/open-rail?style=social&color=white)](https://github.com/CMCC-TAO/open-rail/stargazers)  
+22. **[Open-RAIL](https://github.com/CMCC-TAO/open-rail)** [![GitHub_Stars](https://img.shields.io/github/stars/CMCC-TAO/open-rail?style=social&color=white)](https://github.com/CMCC-TAO/open-rail/stargazers)  
     🧠 Open-source middleware connecting Vision-Language-Action (VLA) foundation models and World-Action Models (WAM) to physical robotic arms and chassis via a three-threaded asynchronous observation-inference-control pipeline.
 
-23. **[ZRM (Zenoh ROS-like Middleware)](https://github.com/JafarAbdi/zrm)** [![GitHub stars](https://img.shields.io/github/stars/JafarAbdi/zrm?style=social&color=white)](https://github.com/JafarAbdi/zrm/stargazers)  
+23. **[ZRM (Zenoh ROS-like Middleware)](https://github.com/JafarAbdi/zrm)** [![GitHub_Stars](https://img.shields.io/github/stars/JafarAbdi/zrm?style=social&color=white)](https://github.com/JafarAbdi/zrm/stargazers)  
     🛠️ Clean, single-file communication middleware built atop Zenoh. Adopts familiar ROS 2 communication paradigms (Topics, Services, Links) with Protobuf runtime validation and quick CLI inspection commands.
 
-24. **[SONNY OS](https://github.com/JackTrainer/Sonny)** [![GitHub stars](https://img.shields.io/github/stars/JackTrainer/Sonny?style=social&color=white)](https://github.com/JackTrainer/Sonny/stargazers)  
+24. **[SONNY OS](https://github.com/JackTrainer/Sonny)** [![GitHub_Stars](https://img.shields.io/github/stars/JackTrainer/Sonny?style=social&color=white)](https://github.com/JackTrainer/Sonny/stargazers)  
     🦾 Agnostic microkernel for robots built in Rust and Zenoh. Provides a sandboxed WebAssembly execution layer, a JSON-based hardware abstraction layer (HAL), and sub-millisecond watchdog jitter supervision.
 
 ---
