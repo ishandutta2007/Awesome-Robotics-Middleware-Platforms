@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" style="background:#0b0f19; border-radius:12px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; overflow:hidden;">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a13" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#0a0e1a" />
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="accentCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f5ff" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+
+    <linearGradient id="accentPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+
+    <linearGradient id="accentGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.1" />
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.1" />
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="glowPurple" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.25; transform: scale(1); }
+      50% { opacity: 0.55; transform: scale(1.08); }
+    }
+    @keyframes floatParticle {
+      0% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
+      50% { transform: translateY(-18px) translateX(12px); opacity: 0.9; }
+      100% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
+    }
+    @keyframes packetFlow1 {
+      0% { stroke-dashoffset: 600; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes packetFlow2 {
+      0% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: 600; }
+    }
+    @keyframes radarSweep {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    .ambient-glow {
+      transform-origin: center;
+      animation: pulseGlow 6s ease-in-out infinite;
+    }
+    .flow-line-1 {
+      stroke-dasharray: 12 16;
+      animation: packetFlow1 14s linear infinite;
+    }
+    .flow-line-2 {
+      stroke-dasharray: 8 14;
+      animation: packetFlow2 12s linear infinite;
+    }
+    .particle-1 { animation: floatParticle 5s ease-in-out infinite; }
+    .particle-2 { animation: floatParticle 7s ease-in-out infinite 1.5s; }
+    .particle-3 { animation: floatParticle 6s ease-in-out infinite 3s; }
+  </style>
+
+  <!-- Deep Background -->
+  <rect width="1200" height="360" fill="url(#bgGrad)" />
+
+  <!-- Background Grid Pattern -->
+  <g stroke="#334155" stroke-width="0.75" opacity="0.18">
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="150" y1="0" x2="150" y2="360" />
+    <line x1="300" y1="0" x2="300" y2="360" />
+    <line x1="450" y1="0" x2="450" y2="360" />
+    <line x1="600" y1="0" x2="600" y2="360" />
+    <line x1="750" y1="0" x2="750" y2="360" />
+    <line x1="900" y1="0" x2="900" y2="360" />
+    <line x1="1050" y1="0" x2="1050" y2="360" />
+  </g>
+
+  <!-- Ambient Light Orbs (Background layer) -->
+  <circle cx="200" cy="180" r="140" fill="#38bdf8" opacity="0.12" filter="url(#glowCyan)" class="ambient-glow" />
+  <circle cx="980" cy="160" r="160" fill="#a855f7" opacity="0.12" filter="url(#glowPurple)" class="ambient-glow" />
+  <circle cx="600" cy="80" r="100" fill="#10b981" opacity="0.08" filter="url(#glowCyan)" class="ambient-glow" />
+
+  <!-- Animated Messaging Topology / Data Bus Lines (Background) -->
+  <g opacity="0.45">
+    <path d="M 80,80 Q 300,20 600,100 T 1120,70" fill="none" stroke="#38bdf8" stroke-width="2" class="flow-line-1" />
+    <path d="M 60,280 Q 350,330 620,260 T 1140,290" fill="none" stroke="#a855f7" stroke-width="2" class="flow-line-2" />
+    <path d="M 120,200 C 320,130 400,290 620,200 S 920,80 1080,220" fill="none" stroke="url(#lineGrad)" stroke-width="1.8" class="flow-line-1" />
+  </g>
+
+  <!-- Network Nodes with pulsing particles -->
+  <g class="particle-1">
+    <circle cx="140" cy="90" r="5" fill="#38bdf8" filter="url(#glowCyan)"/>
+    <circle cx="140" cy="90" r="10" fill="none" stroke="#38bdf8" stroke-width="1" opacity="0.5"/>
+  </g>
+  <g class="particle-2">
+    <circle cx="1060" cy="100" r="5" fill="#c084fc" filter="url(#glowPurple)"/>
+    <circle cx="1060" cy="100" r="12" fill="none" stroke="#c084fc" stroke-width="1" opacity="0.5"/>
+  </g>
+  <g class="particle-3">
+    <circle cx="1080" cy="270" r="4" fill="#34d399" filter="url(#glowCyan)"/>
+    <circle cx="100" cy="260" r="4.5" fill="#38bdf8" filter="url(#glowCyan)"/>
+  </g>
+
+  <!-- Foreground Title Card / Backdrop to guarantee text is completely readable -->
+  <g filter="url(#cardShadow)">
+    <rect x="100" y="45" width="1000" height="270" rx="16" fill="#0f172a" fill-opacity="0.82" stroke="#334155" stroke-opacity="0.65" stroke-width="1.2" />
+  </g>
+
+  <!-- Decorative Corner Accents on Card -->
+  <path d="M 100,75 L 100,57 A 12,12 0 0,1 112,45 L 130,45" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 1100,75 L 1100,57 A 12,12 0 0,0 1088,45 L 1070,45" fill="none" stroke="#a855f7" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 100,285 L 100,303 A 12,12 0 0,0 112,315 L 130,315" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 1100,285 L 1100,303 A 12,12 0 0,1 1088,315 L 1070,315" fill="none" stroke="#a855f7" stroke-width="2.5" stroke-linecap="round" />
+
+  <!-- Badge / Category Pill (Foreground) -->
+  <g transform="translate(600, 85)">
+    <rect x="-160" y="-14" width="320" height="28" rx="14" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+    <circle cx="-136" cy="0" r="4" fill="#10b981">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="4.5" fill="#94a3b8" font-size="11.5" font-weight="700" letter-spacing="2.5" text-anchor="middle">ROBOTICS MIDDLEWARE ECOSYSTEM</text>
+  </g>
+
+  <!-- Foreground Title -->
+  <text x="600" y="150" fill="url(#titleGrad)" font-size="38" font-weight="900" letter-spacing="-0.5" text-anchor="middle">Awesome Robotics Middleware Platforms</text>
+
+  <!-- Foreground Subtitle -->
+  <text x="600" y="195" fill="#e2e8f0" font-size="17" font-weight="500" letter-spacing="0.2" text-anchor="middle">Curated Hub for Real-Time Robot IPC, DDS Stacks, Pub/Sub Messaging &amp; Edge Middleware</text>
+
+  <!-- Feature / Tech Pills (Foreground) -->
+  <g transform="translate(600, 245)">
+    <!-- Pill 1: ROS 2 & Micro-ROS -->
+    <g transform="translate(-360, 0)">
+      <rect x="-70" y="-15" width="140" height="30" rx="15" fill="#1e293b" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.2"/>
+      <text x="0" y="5" fill="#38bdf8" font-size="12" font-weight="600" text-anchor="middle">🤖 ROS 2 &amp; micro-ROS</text>
+    </g>
+    <!-- Pill 2: OMG DDS / RTPS -->
+    <g transform="translate(-180, 0)">
+      <rect x="-65" y="-15" width="130" height="30" rx="15" fill="#1e293b" stroke="#818cf8" stroke-opacity="0.4" stroke-width="1.2"/>
+      <text x="0" y="5" fill="#a5b4fc" font-size="12" font-weight="600" text-anchor="middle">⚡ OMG DDS / RTPS</text>
+    </g>
+    <!-- Pill 3: Eclipse Zenoh -->
+    <g transform="translate(0, 0)">
+      <rect x="-65" y="-15" width="130" height="30" rx="15" fill="#1e293b" stroke="#c084fc" stroke-opacity="0.4" stroke-width="1.2"/>
+      <text x="0" y="5" fill="#d8b4fe" font-size="12" font-weight="600" text-anchor="middle">🌐 Eclipse Zenoh</text>
+    </g>
+    <!-- Pill 4: Zero-Copy IPC -->
+    <g transform="translate(180, 0)">
+      <rect x="-65" y="-15" width="130" height="30" rx="15" fill="#1e293b" stroke="#34d399" stroke-opacity="0.4" stroke-width="1.2"/>
+      <text x="0" y="5" fill="#6ee7b7" font-size="12" font-weight="600" text-anchor="middle">🚀 Zero-Copy IPC</text>
+    </g>
+    <!-- Pill 5: Cloud & Telemetry -->
+    <g transform="translate(360, 0)">
+      <rect x="-70" y="-15" width="140" height="30" rx="15" fill="#1e293b" stroke="#f472b6" stroke-opacity="0.4" stroke-width="1.2"/>
+      <text x="0" y="5" fill="#f472b6" font-size="12" font-weight="600" text-anchor="middle">📡 Telemetry &amp; Fleet</text>
+    </g>
+  </g>
+
+  <!-- Bottom Accent Status Line -->
+  <g transform="translate(600, 290)">
+    <line x1="-300" y1="0" x2="300" y2="0" stroke="url(#lineGrad)" stroke-width="1" />
+    <circle cx="0" cy="0" r="3" fill="#38bdf8" />
+  </g>
+</svg>
